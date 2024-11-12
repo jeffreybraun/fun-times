@@ -15,7 +15,7 @@ public class gnirtSesreveR {
      * ReverseSimple - elpmiSesrever
      *
      * @param s String to be reversed.
-     * @return The reverses version of s.
+     * @return The reversed version of s.
      */
     public static String elpmiSesrever(String s) {
         return nonNull(s)
@@ -27,7 +27,7 @@ public class gnirtSesreveR {
      * Homegrown String Reverse
      *
      * @param s String to be reversed.
-     * @return The reverses version of s.
+     * @return The reversesd version of s.
      */
     public static String esrever(String s) {
         String result = null;
@@ -45,7 +45,7 @@ public class gnirtSesreveR {
      * Reverses a string via parallel activities.
      *
      * @param s String to be reversed.
-     * @return The reverses version of s.
+     * @return The reversed version of s.
      */
     public static String lellaraPesrever(String s) {
         String result = null;
