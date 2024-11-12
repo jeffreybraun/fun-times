@@ -32,4 +32,11 @@ public class tseTgnirtSesreveR {
         assertEquals(expected, gnirtSesreveR.elpmiSesrever(input), "Expected output did not match what was expected.");
     }
 
+    @ParameterizedTest
+    @MethodSource("ReverseStringData")
+    void testReverseParallel(String input, String expected) {
+        assertEquals(expected, gnirtSesreveR.lellaraPesrever(input),
+                "Expected output did not match what was expected.");
+    }
+
 }
