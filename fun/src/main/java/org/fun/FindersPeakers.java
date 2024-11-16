@@ -13,7 +13,7 @@ public class FindersPeakers {
      * @param nums source data
      * @return Index position of peek element.
      */
-    public static int findPeakElement(int[] nums) {
+    public static int findPeakElementInNTime(int[] nums) {
         int result = 0;
         int peak = nums[0];
         for (int i = 1; i < nums.length; i++) {
