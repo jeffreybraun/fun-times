@@ -1,7 +1,7 @@
 package org.fun;
 
 /**
- * Finds a peak element is an element in an array.
+ * Finds a peak element in an array.
  * A peak element is an element that is greater than its neighbors.
  */
 public class FindersPeakers {
