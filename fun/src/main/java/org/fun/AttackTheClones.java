@@ -1,5 +1,7 @@
 package org.fun;
 
+import java.util.Arrays;
+
 /**
  * This class removes duplicates from a supplied sorted array.
  */
@@ -22,6 +24,18 @@ public class AttackTheClones {
             examineLocation++;
         }
         return openSpot;
+    }
+
+    /**
+     * Sorts the provided array of ints, and rRemoves duplicates from a sorted array,
+     * and the returned value indicates how many of unique values exist.
+     *
+     * @param nums source data
+     * @return the total number of unique elements
+     */
+    public static int removeUnsorteDuplicates(int[] nums) {
+        Arrays.sort(nums);
+        return removeDuplicates(nums);
     }
 
 }
