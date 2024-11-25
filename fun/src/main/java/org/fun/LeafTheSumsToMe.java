@@ -3,7 +3,8 @@ package org.fun;
 import static java.util.Objects.isNull;
 
 /**
- * This class provides funcationality
+ * This class provides functionality for calculating root-to-leaf sums and determines
+ * if this matches a requested target value.
  */
 public class LeafTheSumsToMe {
 
@@ -13,20 +14,20 @@ public class LeafTheSumsToMe {
      * A leaf is a node with no children.
      *
      * @param root      The root tree node
-     * @param targetSum The value the sum of root-to-leaf must add up to to be true.
+     * @param targetSum The value desired for root-to-leaf summation.
      * @return true if the targetSum is equal to a root-to-leaf summation; false if not.
      */
     public static boolean hasPathSum(TreeNode root, int targetSum) {
         return checkTarget(root, targetSum);
     }
-\
+
     /**
      * Determines if the supplied tree (root) has a root-to-leaf path such that adding up all
      * the values along the path equals targetSum.
      * A leaf is a node with no children.
      *
      * @param root      The root tree node
-     * @param targetSum The value the sum of root-to-leaf must add up to to be true.
+     * @param targetSum The value desired for root-to-leaf summation.
      * @return true if the targetSum is equal to a root-to-leaf summation; false if not.
      */
     static boolean checkTarget(TreeNode root, int targetSum) {
